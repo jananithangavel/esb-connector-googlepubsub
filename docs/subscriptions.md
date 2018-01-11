@@ -32,9 +32,9 @@ The createTopicSubscription operation creates a subscription to a topic that you
 ```
 
 **Properties**
-* topicName: The name of the topic for which you want to create a subscription.
-* projectId: The unique ID of the project within which the topic is created.
-* subscriptionName: The name of the subscription.
+a. topicName: The name of the topic for which you want to create a subscription.
+b. projectId: The unique ID of the project within which the topic is created.
+c. subscriptionName: The name of the subscription.
 * ackDeadlineSeconds[Optional]: The maximum time a subscriber can take to acknowledge a message that is received.
 * pushEndpoint[Optional]: The URL that specifies the endpoint to which messages should be pushed.
 * attributes[Optional]: Additional endpoint configuration attributes.
